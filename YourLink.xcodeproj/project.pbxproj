@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		049B25431944460100A6E78D /* alartBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 049B25401944460100A6E78D /* alartBack.png */; };
+		049B25441944460100A6E78D /* noButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 049B25411944460100A6E78D /* noButton.png */; };
+		049B25451944460100A6E78D /* yesButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 049B25421944460100A6E78D /* yesButton.png */; };
+		049B25491944495600A6E78D /* UIView-AlertAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 049B25481944495600A6E78D /* UIView-AlertAnimations.m */; };
+		049B254B1944568C00A6E78D /* createAnAccButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 049B254A1944568C00A6E78D /* createAnAccButton.png */; };
+		049B25501944592000A6E78D /* MyHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049B254E1944592000A6E78D /* MyHomeViewController.m */; };
+		049B25511944592000A6E78D /* MyHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 049B254F1944592000A6E78D /* MyHomeViewController.xib */; };
+		049B255419445B2600A6E78D /* myHomeNavBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 049B255319445B2600A6E78D /* myHomeNavBar.png */; };
+		049B255719445BE600A6E78D /* helpButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 049B255519445BE600A6E78D /* helpButton.png */; };
+		049B255819445BE600A6E78D /* homeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 049B255619445BE600A6E78D /* homeButton.png */; };
+		049B255D19445E9600A6E78D /* ApplinkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 049B255B19445E9600A6E78D /* ApplinkViewController.m */; };
+		049B255E19445E9600A6E78D /* ApplinkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 049B255C19445E9600A6E78D /* ApplinkViewController.xib */; };
+		04EB359919430FFB0010B3BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EB359819430FFB0010B3BC /* Foundation.framework */; };
+		04EB359B19430FFB0010B3BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EB359A19430FFB0010B3BC /* CoreGraphics.framework */; };
+		04EB359D19430FFB0010B3BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EB359C19430FFB0010B3BC /* UIKit.framework */; };
+		04EB35A319430FFB0010B3BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04EB35A119430FFB0010B3BC /* InfoPlist.strings */; };
+		04EB35A519430FFB0010B3BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EB35A419430FFB0010B3BC /* main.m */; };
+		04EB35A919430FFB0010B3BC /* YourLinkAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EB35A819430FFB0010B3BC /* YourLinkAppDelegate.m */; };
+		04EB35D2194313CF0010B3BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04EB35D1194313CF0010B3BC /* Images.xcassets */; };
+		04EB35D61943159A0010B3BC /* Globals.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EB35D51943159A0010B3BC /* Globals.m */; };
+		04EB35D8194316420010B3BC /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04EB35D7194316420010B3BC /* SplashViewController.xib */; };
+		04EB35DE194318050010B3BC /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EB35DC194318050010B3BC /* LoginViewController.m */; };
+		04EB35DF194318050010B3BC /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04EB35DD194318050010B3BC /* LoginViewController.xib */; };
+		04EB35E3194319840010B3BC /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EB35E2194319840010B3BC /* SplashViewController.m */; };
+		04EB35E519431A2E0010B3BC /* splash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB35E419431A2E0010B3BC /* splash@2x.png */; };
+		04EB35E819431DF80010B3BC /* Login.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB35E719431DF80010B3BC /* Login.png */; };
+		04EB35ED1943544F0010B3BC /* Form_Check_Off.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB35E91943544F0010B3BC /* Form_Check_Off.png */; };
+		04EB35EE1943544F0010B3BC /* Form_Check_On.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB35EA1943544F0010B3BC /* Form_Check_On.png */; };
+		04EB35EF1943544F0010B3BC /* input.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB35EB1943544F0010B3BC /* input.png */; };
+		04EB35F01943544F0010B3BC /* login_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB35EC1943544F0010B3BC /* login_button.png */; };
+		04EB35F919435F210010B3BC /* UIKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EB35F319435F210010B3BC /* UIKeyboardView.m */; };
+		04EB35FA19435F210010B3BC /* UIKeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EB35F519435F210010B3BC /* UIKeyboardViewController.m */; };
+		04EB35FB19435F210010B3BC /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EB35F819435F210010B3BC /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		04EB35FF194367B20010B3BC /* ValidationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EB35FE194367B20010B3BC /* ValidationManager.m */; };
+		04EB3609194376CD0010B3BC /* ProfileCreateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04EB3607194376CD0010B3BC /* ProfileCreateViewController.m */; };
+		04EB360A194376CD0010B3BC /* ProfileCreateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04EB3608194376CD0010B3BC /* ProfileCreateViewController.xib */; };
+		04EB361719438A2D0010B3BC /* createAccountButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB360C19438A2D0010B3BC /* createAccountButton.png */; };
+		04EB361819438A2D0010B3BC /* dropDownBig.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB360D19438A2D0010B3BC /* dropDownBig.png */; };
+		04EB361919438A2D0010B3BC /* dropDownSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB360E19438A2D0010B3BC /* dropDownSmall.png */; };
+		04EB361A19438A2D0010B3BC /* inputProCreatePage.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB360F19438A2D0010B3BC /* inputProCreatePage.png */; };
+		04EB361B19438A2D0010B3BC /* passwortMismatch.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB361019438A2D0010B3BC /* passwortMismatch.png */; };
+		04EB361C19438A2D0010B3BC /* passwortMismatchCross.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB361119438A2D0010B3BC /* passwortMismatchCross.png */; };
+		04EB361D19438A2D0010B3BC /* signupBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB361219438A2D0010B3BC /* signupBack.png */; };
+		04EB361E19438A2D0010B3BC /* signupLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB361319438A2D0010B3BC /* signupLogo.png */; };
+		04EB361F19438A2D0010B3BC /* t&csBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB361419438A2D0010B3BC /* t&csBack.png */; };
+		04EB362019438A2D0010B3BC /* t&csCheckButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB361519438A2D0010B3BC /* t&csCheckButton.png */; };
+		04EB362119438A2D0010B3BC /* t&csUncheckButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB361619438A2D0010B3BC /* t&csUncheckButton.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		049B25401944460100A6E78D /* alartBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alartBack.png; sourceTree = "<group>"; };
+		049B25411944460100A6E78D /* noButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noButton.png; sourceTree = "<group>"; };
+		049B25421944460100A6E78D /* yesButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yesButton.png; sourceTree = "<group>"; };
+		049B25471944495600A6E78D /* UIView-AlertAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView-AlertAnimations.h"; sourceTree = "<group>"; };
+		049B25481944495600A6E78D /* UIView-AlertAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView-AlertAnimations.m"; sourceTree = "<group>"; };
+		049B254A1944568C00A6E78D /* createAnAccButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = createAnAccButton.png; path = Resources/Login/createAnAccButton.png; sourceTree = "<group>"; };
+		049B254D1944592000A6E78D /* MyHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyHomeViewController.h; path = "Classes/My Home View/MyHomeViewController.h"; sourceTree = "<group>"; };
+		049B254E1944592000A6E78D /* MyHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyHomeViewController.m; path = "Classes/My Home View/MyHomeViewController.m"; sourceTree = "<group>"; };
+		049B254F1944592000A6E78D /* MyHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MyHomeViewController.xib; path = "Classes/My Home View/MyHomeViewController.xib"; sourceTree = "<group>"; };
+		049B255319445B2600A6E78D /* myHomeNavBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = myHomeNavBar.png; path = "Resources/My Home/myHomeNavBar.png"; sourceTree = "<group>"; };
+		049B255519445BE600A6E78D /* helpButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = helpButton.png; path = "Resources/My Home/helpButton.png"; sourceTree = "<group>"; };
+		049B255619445BE600A6E78D /* homeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = homeButton.png; path = "Resources/My Home/homeButton.png"; sourceTree = "<group>"; };
+		049B255A19445E9600A6E78D /* ApplinkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ApplinkViewController.h; path = "Classes/Applink View/ApplinkViewController.h"; sourceTree = "<group>"; };
+		049B255B19445E9600A6E78D /* ApplinkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ApplinkViewController.m; path = "Classes/Applink View/ApplinkViewController.m"; sourceTree = "<group>"; };
+		049B255C19445E9600A6E78D /* ApplinkViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ApplinkViewController.xib; path = "Classes/Applink View/ApplinkViewController.xib"; sourceTree = "<group>"; };
+		04EB359519430FFB0010B3BC /* YourLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YourLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EB359819430FFB0010B3BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04EB359A19430FFB0010B3BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		04EB359C19430FFB0010B3BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		04EB35A019430FFB0010B3BC /* YourLink-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YourLink-Info.plist"; sourceTree = "<group>"; };
+		04EB35A219430FFB0010B3BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04EB35A419430FFB0010B3BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04EB35A619430FFB0010B3BC /* YourLink-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YourLink-Prefix.pch"; sourceTree = "<group>"; };
+		04EB35A719430FFB0010B3BC /* YourLinkAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YourLinkAppDelegate.h; sourceTree = "<group>"; };
+		04EB35A819430FFB0010B3BC /* YourLinkAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YourLinkAppDelegate.m; sourceTree = "<group>"; };
+		04EB35B719430FFB0010B3BC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		04EB35BF19430FFB0010B3BC /* YourLinkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YourLinkTests-Info.plist"; sourceTree = "<group>"; };
+		04EB35C119430FFB0010B3BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04EB35C319430FFB0010B3BC /* YourLinkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YourLinkTests.m; sourceTree = "<group>"; };
+		04EB35D1194313CF0010B3BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04EB35D41943159A0010B3BC /* Globals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Globals.h; sourceTree = "<group>"; };
+		04EB35D51943159A0010B3BC /* Globals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Globals.m; sourceTree = "<group>"; };
+		04EB35D7194316420010B3BC /* SplashViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SplashViewController.xib; path = Classes/Splash/SplashViewController.xib; sourceTree = "<group>"; };
+		04EB35DB194318050010B3BC /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = "Classes/Login View/LoginViewController.h"; sourceTree = "<group>"; };
+		04EB35DC194318050010B3BC /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = "Classes/Login View/LoginViewController.m"; sourceTree = "<group>"; };
+		04EB35DD194318050010B3BC /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginViewController.xib; path = "Classes/Login View/LoginViewController.xib"; sourceTree = "<group>"; };
+		04EB35E1194319840010B3BC /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SplashViewController.h; path = Classes/Splash/SplashViewController.h; sourceTree = "<group>"; };
+		04EB35E2194319840010B3BC /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SplashViewController.m; path = Classes/Splash/SplashViewController.m; sourceTree = "<group>"; };
+		04EB35E419431A2E0010B3BC /* splash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "splash@2x.png"; path = "Resources/Splash/splash@2x.png"; sourceTree = "<group>"; };
+		04EB35E719431DF80010B3BC /* Login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Login.png; path = Resources/Login/Login.png; sourceTree = "<group>"; };
+		04EB35E91943544F0010B3BC /* Form_Check_Off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Form_Check_Off.png; path = Resources/Login/Form_Check_Off.png; sourceTree = "<group>"; };
+		04EB35EA1943544F0010B3BC /* Form_Check_On.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Form_Check_On.png; path = Resources/Login/Form_Check_On.png; sourceTree = "<group>"; };
+		04EB35EB1943544F0010B3BC /* input.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = input.png; path = Resources/Login/input.png; sourceTree = "<group>"; };
+		04EB35EC1943544F0010B3BC /* login_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = login_button.png; path = Resources/Login/login_button.png; sourceTree = "<group>"; };
+		04EB35F219435F210010B3BC /* UIKeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIKeyboardView.h; sourceTree = "<group>"; };
+		04EB35F319435F210010B3BC /* UIKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIKeyboardView.m; sourceTree = "<group>"; };
+		04EB35F419435F210010B3BC /* UIKeyboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIKeyboardViewController.h; sourceTree = "<group>"; };
+		04EB35F519435F210010B3BC /* UIKeyboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIKeyboardViewController.m; sourceTree = "<group>"; };
+		04EB35F719435F210010B3BC /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		04EB35F819435F210010B3BC /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		04EB35FD194367B20010B3BC /* ValidationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValidationManager.h; sourceTree = "<group>"; };
+		04EB35FE194367B20010B3BC /* ValidationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValidationManager.m; sourceTree = "<group>"; };
+		04EB3606194376CD0010B3BC /* ProfileCreateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProfileCreateViewController.h; path = "Classes/Profile Create View/ProfileCreateViewController.h"; sourceTree = "<group>"; };
+		04EB3607194376CD0010B3BC /* ProfileCreateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProfileCreateViewController.m; path = "Classes/Profile Create View/ProfileCreateViewController.m"; sourceTree = "<group>"; };
+		04EB3608194376CD0010B3BC /* ProfileCreateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ProfileCreateViewController.xib; path = "Classes/Profile Create View/ProfileCreateViewController.xib"; sourceTree = "<group>"; };
+		04EB360C19438A2D0010B3BC /* createAccountButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = createAccountButton.png; sourceTree = "<group>"; };
+		04EB360D19438A2D0010B3BC /* dropDownBig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dropDownBig.png; sourceTree = "<group>"; };
+		04EB360E19438A2D0010B3BC /* dropDownSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dropDownSmall.png; sourceTree = "<group>"; };
+		04EB360F19438A2D0010B3BC /* inputProCreatePage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inputProCreatePage.png; sourceTree = "<group>"; };
+		04EB361019438A2D0010B3BC /* passwortMismatch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = passwortMismatch.png; sourceTree = "<group>"; };
+		04EB361119438A2D0010B3BC /* passwortMismatchCross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = passwortMismatchCross.png; sourceTree = "<group>"; };
+		04EB361219438A2D0010B3BC /* signupBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signupBack.png; sourceTree = "<group>"; };
+		04EB361319438A2D0010B3BC /* signupLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signupLogo.png; sourceTree = "<group>"; };
+		04EB361419438A2D0010B3BC /* t&csBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "t&csBack.png"; sourceTree = "<group>"; };
+		04EB361519438A2D0010B3BC /* t&csCheckButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "t&csCheckButton.png"; sourceTree = "<group>"; };
+		04EB361619438A2D0010B3BC /* t&csUncheckButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "t&csUncheckButton.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04EB359219430FFB0010B3BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EB359B19430FFB0010B3BC /* CoreGraphics.framework in Frameworks */,
+				04EB359D19430FFB0010B3BC /* UIKit.framework in Frameworks */,
+				04EB359919430FFB0010B3BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		049B25461944495600A6E78D /* Popup View */ = {
+			isa = PBXGroup;
+			children = (
+				049B25471944495600A6E78D /* UIView-AlertAnimations.h */,
+				049B25481944495600A6E78D /* UIView-AlertAnimations.m */,
+			);
+			name = "Popup View";
+			path = "Helper Clesses/Global Class/Popup View";
+			sourceTree = "<group>";
+		};
+		049B254C194458E000A6E78D /* My Home View */ = {
+			isa = PBXGroup;
+			children = (
+				049B254D1944592000A6E78D /* MyHomeViewController.h */,
+				049B254E1944592000A6E78D /* MyHomeViewController.m */,
+				049B254F1944592000A6E78D /* MyHomeViewController.xib */,
+			);
+			name = "My Home View";
+			sourceTree = "<group>";
+		};
+		049B255219445AF000A6E78D /* My Home */ = {
+			isa = PBXGroup;
+			children = (
+				049B255519445BE600A6E78D /* helpButton.png */,
+				049B255619445BE600A6E78D /* homeButton.png */,
+				049B255319445B2600A6E78D /* myHomeNavBar.png */,
+			);
+			name = "My Home";
+			sourceTree = "<group>";
+		};
+		049B255919445E4700A6E78D /* Applink View */ = {
+			isa = PBXGroup;
+			children = (
+				049B255A19445E9600A6E78D /* ApplinkViewController.h */,
+				049B255B19445E9600A6E78D /* ApplinkViewController.m */,
+				049B255C19445E9600A6E78D /* ApplinkViewController.xib */,
+			);
+			name = "Applink View";
+			sourceTree = "<group>";
+		};
+		04EB358C19430FFB0010B3BC = {
+			isa = PBXGroup;
+			children = (
+				04EB359E19430FFB0010B3BC /* YourLink */,
+				04EB35BD19430FFB0010B3BC /* YourLinkTests */,
+				04EB359719430FFB0010B3BC /* Frameworks */,
+				04EB359619430FFB0010B3BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04EB359619430FFB0010B3BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04EB359519430FFB0010B3BC /* YourLink.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04EB359719430FFB0010B3BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04EB359819430FFB0010B3BC /* Foundation.framework */,
+				04EB359A19430FFB0010B3BC /* CoreGraphics.framework */,
+				04EB359C19430FFB0010B3BC /* UIKit.framework */,
+				04EB35B719430FFB0010B3BC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04EB359E19430FFB0010B3BC /* YourLink */ = {
+			isa = PBXGroup;
+			children = (
+				04EB35CD194311A70010B3BC /* AppDelegate */,
+				04EB35CE194311BD0010B3BC /* Helper Clesses */,
+				04EB35CF194311D60010B3BC /* Classes */,
+				04EB35D0194311E90010B3BC /* Resources */,
+				04EB35D1194313CF0010B3BC /* Images.xcassets */,
+				04EB359F19430FFB0010B3BC /* Supporting Files */,
+			);
+			path = YourLink;
+			sourceTree = "<group>";
+		};
+		04EB359F19430FFB0010B3BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04EB35A019430FFB0010B3BC /* YourLink-Info.plist */,
+				04EB35A119430FFB0010B3BC /* InfoPlist.strings */,
+				04EB35A419430FFB0010B3BC /* main.m */,
+				04EB35A619430FFB0010B3BC /* YourLink-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04EB35BD19430FFB0010B3BC /* YourLinkTests */ = {
+			isa = PBXGroup;
+			children = (
+				04EB35C319430FFB0010B3BC /* YourLinkTests.m */,
+				04EB35BE19430FFB0010B3BC /* Supporting Files */,
+			);
+			path = YourLinkTests;
+			sourceTree = "<group>";
+		};
+		04EB35BE19430FFB0010B3BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04EB35BF19430FFB0010B3BC /* YourLinkTests-Info.plist */,
+				04EB35C019430FFB0010B3BC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04EB35CD194311A70010B3BC /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				04EB35A719430FFB0010B3BC /* YourLinkAppDelegate.h */,
+				04EB35A819430FFB0010B3BC /* YourLinkAppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		04EB35CE194311BD0010B3BC /* Helper Clesses */ = {
+			isa = PBXGroup;
+			children = (
+				04EB35F619435F210010B3BC /* Reachability */,
+				04EB35F119435F210010B3BC /* Keyboard */,
+				049B25461944495600A6E78D /* Popup View */,
+				04EB35D31943159A0010B3BC /* Global Class */,
+			);
+			name = "Helper Clesses";
+			sourceTree = "<group>";
+		};
+		04EB35CF194311D60010B3BC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				04EB35D9194317C10010B3BC /* Splash View */,
+				04EB35DA194317D00010B3BC /* Login View */,
+				04EB3600194373440010B3BC /* Profile Create View */,
+				049B255919445E4700A6E78D /* Applink View */,
+				049B254C194458E000A6E78D /* My Home View */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		04EB35D0194311E90010B3BC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04EB35E01943189E0010B3BC /* Splash */,
+				04EB35E619431DCB0010B3BC /* Login */,
+				049B255219445AF000A6E78D /* My Home */,
+				04EB360B19438A2D0010B3BC /* Create Profile */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		04EB35D31943159A0010B3BC /* Global Class */ = {
+			isa = PBXGroup;
+			children = (
+				04EB35D41943159A0010B3BC /* Globals.h */,
+				04EB35D51943159A0010B3BC /* Globals.m */,
+			);
+			name = "Global Class";
+			path = "Helper Clesses/Global Class";
+			sourceTree = "<group>";
+		};
+		04EB35D9194317C10010B3BC /* Splash View */ = {
+			isa = PBXGroup;
+			children = (
+				04EB35E1194319840010B3BC /* SplashViewController.h */,
+				04EB35E2194319840010B3BC /* SplashViewController.m */,
+				04EB35D7194316420010B3BC /* SplashViewController.xib */,
+			);
+			name = "Splash View";
+			sourceTree = "<group>";
+		};
+		04EB35DA194317D00010B3BC /* Login View */ = {
+			isa = PBXGroup;
+			children = (
+				04EB35FC194367B20010B3BC /* Validation Manager */,
+				04EB35DB194318050010B3BC /* LoginViewController.h */,
+				04EB35DC194318050010B3BC /* LoginViewController.m */,
+				04EB35DD194318050010B3BC /* LoginViewController.xib */,
+			);
+			name = "Login View";
+			sourceTree = "<group>";
+		};
+		04EB35E01943189E0010B3BC /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				04EB35E419431A2E0010B3BC /* splash@2x.png */,
+			);
+			name = Splash;
+			sourceTree = "<group>";
+		};
+		04EB35E619431DCB0010B3BC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				049B254A1944568C00A6E78D /* createAnAccButton.png */,
+				04EB35E91943544F0010B3BC /* Form_Check_Off.png */,
+				04EB35EA1943544F0010B3BC /* Form_Check_On.png */,
+				04EB35EB1943544F0010B3BC /* input.png */,
+				04EB35EC1943544F0010B3BC /* login_button.png */,
+				04EB35E719431DF80010B3BC /* Login.png */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		04EB35F119435F210010B3BC /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				04EB35F219435F210010B3BC /* UIKeyboardView.h */,
+				04EB35F319435F210010B3BC /* UIKeyboardView.m */,
+				04EB35F419435F210010B3BC /* UIKeyboardViewController.h */,
+				04EB35F519435F210010B3BC /* UIKeyboardViewController.m */,
+			);
+			name = Keyboard;
+			path = "Helper Clesses/Keyboard";
+			sourceTree = "<group>";
+		};
+		04EB35F619435F210010B3BC /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				04EB35F719435F210010B3BC /* Reachability.h */,
+				04EB35F819435F210010B3BC /* Reachability.m */,
+			);
+			name = Reachability;
+			path = "Helper Clesses/Reachability";
+			sourceTree = "<group>";
+		};
+		04EB35FC194367B20010B3BC /* Validation Manager */ = {
+			isa = PBXGroup;
+			children = (
+				04EB35FD194367B20010B3BC /* ValidationManager.h */,
+				04EB35FE194367B20010B3BC /* ValidationManager.m */,
+			);
+			name = "Validation Manager";
+			path = "Classes/Login View/Validation Manager";
+			sourceTree = "<group>";
+		};
+		04EB3600194373440010B3BC /* Profile Create View */ = {
+			isa = PBXGroup;
+			children = (
+				04EB3606194376CD0010B3BC /* ProfileCreateViewController.h */,
+				04EB3607194376CD0010B3BC /* ProfileCreateViewController.m */,
+				04EB3608194376CD0010B3BC /* ProfileCreateViewController.xib */,
+			);
+			name = "Profile Create View";
+			sourceTree = "<group>";
+		};
+		04EB360B19438A2D0010B3BC /* Create Profile */ = {
+			isa = PBXGroup;
+			children = (
+				049B25401944460100A6E78D /* alartBack.png */,
+				049B25411944460100A6E78D /* noButton.png */,
+				049B25421944460100A6E78D /* yesButton.png */,
+				04EB360C19438A2D0010B3BC /* createAccountButton.png */,
+				04EB360D19438A2D0010B3BC /* dropDownBig.png */,
+				04EB360E19438A2D0010B3BC /* dropDownSmall.png */,
+				04EB360F19438A2D0010B3BC /* inputProCreatePage.png */,
+				04EB361019438A2D0010B3BC /* passwortMismatch.png */,
+				04EB361119438A2D0010B3BC /* passwortMismatchCross.png */,
+				04EB361219438A2D0010B3BC /* signupBack.png */,
+				04EB361319438A2D0010B3BC /* signupLogo.png */,
+				04EB361419438A2D0010B3BC /* t&csBack.png */,
+				04EB361519438A2D0010B3BC /* t&csCheckButton.png */,
+				04EB361619438A2D0010B3BC /* t&csUncheckButton.png */,
+			);
+			name = "Create Profile";
+			path = "Resources/Create Profile";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04EB359419430FFB0010B3BC /* YourLink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EB35C719430FFB0010B3BC /* Build configuration list for PBXNativeTarget "YourLink" */;
+			buildPhases = (
+				04EB359119430FFB0010B3BC /* Sources */,
+				04EB359219430FFB0010B3BC /* Frameworks */,
+				04EB359319430FFB0010B3BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YourLink;
+			productName = YourLink;
+			productReference = 04EB359519430FFB0010B3BC /* YourLink.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04EB358D19430FFB0010B3BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Splash;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = appiWork;
+			};
+			buildConfigurationList = 04EB359019430FFB0010B3BC /* Build configuration list for PBXProject "YourLink" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04EB358C19430FFB0010B3BC;
+			productRefGroup = 04EB359619430FFB0010B3BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04EB359419430FFB0010B3BC /* YourLink */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04EB359319430FFB0010B3BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049B25451944460100A6E78D /* yesButton.png in Resources */,
+				04EB361F19438A2D0010B3BC /* t&csBack.png in Resources */,
+				04EB361B19438A2D0010B3BC /* passwortMismatch.png in Resources */,
+				04EB35ED1943544F0010B3BC /* Form_Check_Off.png in Resources */,
+				04EB35F01943544F0010B3BC /* login_button.png in Resources */,
+				04EB35EE1943544F0010B3BC /* Form_Check_On.png in Resources */,
+				04EB35E519431A2E0010B3BC /* splash@2x.png in Resources */,
+				04EB35DF194318050010B3BC /* LoginViewController.xib in Resources */,
+				04EB361D19438A2D0010B3BC /* signupBack.png in Resources */,
+				049B25441944460100A6E78D /* noButton.png in Resources */,
+				049B25431944460100A6E78D /* alartBack.png in Resources */,
+				04EB360A194376CD0010B3BC /* ProfileCreateViewController.xib in Resources */,
+				04EB361C19438A2D0010B3BC /* passwortMismatchCross.png in Resources */,
+				04EB35A319430FFB0010B3BC /* InfoPlist.strings in Resources */,
+				04EB361719438A2D0010B3BC /* createAccountButton.png in Resources */,
+				04EB35D8194316420010B3BC /* SplashViewController.xib in Resources */,
+				04EB361A19438A2D0010B3BC /* inputProCreatePage.png in Resources */,
+				04EB361E19438A2D0010B3BC /* signupLogo.png in Resources */,
+				04EB35D2194313CF0010B3BC /* Images.xcassets in Resources */,
+				04EB35E819431DF80010B3BC /* Login.png in Resources */,
+				049B255719445BE600A6E78D /* helpButton.png in Resources */,
+				049B255419445B2600A6E78D /* myHomeNavBar.png in Resources */,
+				049B254B1944568C00A6E78D /* createAnAccButton.png in Resources */,
+				04EB35EF1943544F0010B3BC /* input.png in Resources */,
+				049B255E19445E9600A6E78D /* ApplinkViewController.xib in Resources */,
+				04EB361919438A2D0010B3BC /* dropDownSmall.png in Resources */,
+				049B25511944592000A6E78D /* MyHomeViewController.xib in Resources */,
+				04EB361819438A2D0010B3BC /* dropDownBig.png in Resources */,
+				04EB362019438A2D0010B3BC /* t&csCheckButton.png in Resources */,
+				049B255819445BE600A6E78D /* homeButton.png in Resources */,
+				04EB362119438A2D0010B3BC /* t&csUncheckButton.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04EB359119430FFB0010B3BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EB3609194376CD0010B3BC /* ProfileCreateViewController.m in Sources */,
+				04EB35E3194319840010B3BC /* SplashViewController.m in Sources */,
+				049B255D19445E9600A6E78D /* ApplinkViewController.m in Sources */,
+				04EB35D61943159A0010B3BC /* Globals.m in Sources */,
+				049B25501944592000A6E78D /* MyHomeViewController.m in Sources */,
+				049B25491944495600A6E78D /* UIView-AlertAnimations.m in Sources */,
+				04EB35FB19435F210010B3BC /* Reachability.m in Sources */,
+				04EB35A519430FFB0010B3BC /* main.m in Sources */,
+				04EB35F919435F210010B3BC /* UIKeyboardView.m in Sources */,
+				04EB35A919430FFB0010B3BC /* YourLinkAppDelegate.m in Sources */,
+				04EB35FA19435F210010B3BC /* UIKeyboardViewController.m in Sources */,
+				04EB35DE194318050010B3BC /* LoginViewController.m in Sources */,
+				04EB35FF194367B20010B3BC /* ValidationManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04EB35A119430FFB0010B3BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04EB35A219430FFB0010B3BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		04EB35C019430FFB0010B3BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04EB35C119430FFB0010B3BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04EB35C519430FFB0010B3BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		04EB35C619430FFB0010B3BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04EB35C819430FFB0010B3BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YourLink/YourLink-Prefix.pch";
+				INFOPLIST_FILE = "YourLink/YourLink-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		04EB35C919430FFB0010B3BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YourLink/YourLink-Prefix.pch";
+				INFOPLIST_FILE = "YourLink/YourLink-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04EB359019430FFB0010B3BC /* Build configuration list for PBXProject "YourLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EB35C519430FFB0010B3BC /* Debug */,
+				04EB35C619430FFB0010B3BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04EB35C719430FFB0010B3BC /* Build configuration list for PBXNativeTarget "YourLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EB35C819430FFB0010B3BC /* Debug */,
+				04EB35C919430FFB0010B3BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04EB358D19430FFB0010B3BC /* Project object */;
+}
